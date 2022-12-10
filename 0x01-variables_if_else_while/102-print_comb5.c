@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-int a, b, c, d, opt1, opt;
+int a, b, c, d, opt1, opt2;
 
 a = b = c = d = 48;
 while (d < 58)
@@ -39,11 +39,11 @@ while (d < 58)
 				}
 				a++;
 			}
-			b++
+			b++;
 		}
-		c++
+		c++;
 	}
-	d++
+	d++;
 }
 putchar('\n');
 return (0);
