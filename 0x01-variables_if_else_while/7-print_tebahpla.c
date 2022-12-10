@@ -1,3 +1,7 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
 /**
  * main - A prog for lowercase alphabet in reverse
  *
