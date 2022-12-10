@@ -2,16 +2,17 @@
 #include <time.h>
 #include <stdio>
 /**
- * main - A program that prints all single digit numbers of base 10 starting from 0
+ * main - A prog that prints single digit numbers of base 10 starting from 0
  *
  * Return: 0
  */
 int main(void)
 {
 	int a:
-		for (a = 0; a =< 9; a++)
+		for (a = 48; a < 58; a++)
 		{
-			putchar(a\n);
+			putchar(a);
 		}
+	putchar('\n');
 	return (0);
 }
