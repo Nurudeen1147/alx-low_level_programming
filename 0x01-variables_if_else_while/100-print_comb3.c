@@ -21,8 +21,8 @@ int main(void)
 		{
 			if (b != a && b < a)
 			{
-				putchat(b);
-				putchat(a);
+				putchar(b);
+				putchar(a);
 				if (a == 57 && b == 56)
 				{
 					break;

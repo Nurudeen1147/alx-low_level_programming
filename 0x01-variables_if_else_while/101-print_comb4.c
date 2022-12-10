@@ -25,9 +25,9 @@ int main(void)
 			{
 				if (b != a && b != c && a != c && b < a && a < c)
 				{
-					putchat(b);
-					putchat(a);
-					putchat(c);
+					putchar(b);
+					putchar(a);
+					putchar(c);
 					if (a == 56 && b == 55 && c == 57)
 					{
 						break;
