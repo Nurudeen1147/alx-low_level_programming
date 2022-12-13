@@ -1,4 +1,5 @@
 #define MAIN_H
+#ifndef MAIN_H
 
 /* _putchar.c */
 int _putchar(char);
@@ -28,5 +29,3 @@ int add(int a, int b);
 void print_to_98(int n);
 
 void print_times_table(int n);
-
-#endif
