@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * print_last_digit - Return the last digit
- * 
+ *
  * @n : number to check
- * 
+ *
  * Return:0 or 1
  */
 

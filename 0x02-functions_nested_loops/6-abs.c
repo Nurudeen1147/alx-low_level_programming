@@ -2,9 +2,9 @@
 
 /**
  * _abs - The absolute value for an interger
- * 
+ *
  * @n: interger to be tested
- * 
+ *
  * Return: 0 or 1
  */
 

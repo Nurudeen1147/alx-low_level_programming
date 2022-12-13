@@ -4,7 +4,7 @@
  * print_times_table - The function that prints the n times table, starting with 0.
  *
  * @n : times table to use
- * 
+ *
  * Return: void
  */
 
