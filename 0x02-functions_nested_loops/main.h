@@ -1,14 +1,15 @@
 #define MAIN_H
 
-/* _putchar.c */
+/* _putchar.c question */
 int _putchar(char);
 
-/*10 x alphabet */
+/* 1-alphabet question: Print alphabet in lowercase*/
 void print_alphabet(void);
 
-/* 2-print_alphabet_x10.c */
+/* 2-print_alphabet_x10.c question: Prints 10 X lowercase alphabet*/
 void print_alphabet_x10(void);
 
+/* islower.c question: check for lowercase charater*/
 int _islower(int c);
 
 int _isalpha(int n);

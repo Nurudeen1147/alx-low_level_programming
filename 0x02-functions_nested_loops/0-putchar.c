@@ -2,8 +2,10 @@
 
 /**
  * main - A program that prints _putchar
+ * 
  * Return: 0
  */
+
 int main(void)
 {
 	char text[9] = "_putchar";
