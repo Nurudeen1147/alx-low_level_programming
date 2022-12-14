@@ -2,7 +2,7 @@
 
 /**
  * main - A program that prints _putchar
- * 
+ *
  * Return: 0
  */
 
