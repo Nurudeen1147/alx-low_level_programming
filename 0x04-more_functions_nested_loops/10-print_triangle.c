@@ -1,34 +1,23 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
-* main - entry block
+* print_triangle - prints a triangle
 *
-* @void: no argument
-*
-* Return: 0 Success
+* @size: takes in a integer for size of triangle
 */
 
-int main(void)
+void print_triangle(int size)
 {
-	int i;
+	int row, column, k;
 
-	for (i = 1; i < 100; i++)
-		if (i % 15 == 0)
-		{
-			printf("FizzBuzz ");
-		}
-		else if (i % 5 == 0)
-		{
-			printf("Buzz ");
-		}
-		else if (i % 3 == 0)
-		{
-			printf("Fizz ");
-		}
-		else
-		{
-			printf("%d ", i);
-		}
-	printf("Buzz");
-	printf("\n");
-	return (0);
+	if (size <= 0)
+		_putchar('\n');
+	for (row = 0; row < size; row++)
+	{
+		for (column = size - row; column > 1; column--)
+			_putchar(' ');
+		for (k = row + column; k >= 1; k--)
+			_putchar('#');
+		_putchar('\n');
+	}
 }
