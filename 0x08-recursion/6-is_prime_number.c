@@ -16,7 +16,8 @@ int isPrime(int n, int i)
 }
 
 /**
- * is_prime_number - Function that returns 1 if the input integer is a prime number,
+ * is_prime_number - Function that returns 1
+ * if the input integer is a prime number,
  * otherwise return 0
  * @n: input number
  * Return: 1 if true, 0 if false

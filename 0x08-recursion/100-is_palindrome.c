@@ -32,7 +32,8 @@ int isPalRec(char str[], int s, int e)
 }
 
 /**
- * is_palindrome - Function that returns 1 if a string is a palindrome and 0 if not
+ * is_palindrome - Function that returns 1
+ * if a string is a palindrome and 0 if not
  * @s: input string
  * Return: 1 if true, 0 if false
  */
